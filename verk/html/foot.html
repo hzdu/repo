@@ -1,0 +1,61 @@
+<div class="myui-foot clearfix">
+	<div class="container min">
+		<div class="row">
+			<style>
+				.myul{
+					text-align: center;
+				}
+				.myul ul li{
+					list-style-type: none;
+					display: inline;
+					margin-left: 15px;
+				}
+			</style>
+			<div class="myul text-muted">
+				本站只提供WEB页面服务,本站不存储、不制作任何视频,不承担任何由于内容的合法性及健康性所引起的争议和法律责任.<br>
+				若本站收录内容侵犯了您的权益,请附说明联系邮箱,本站将第一时间处理.
+			</div>
+			<div class="myul text-muted">
+				<ul>
+					<li><a class="text-muted" href="https://verk.cc/xml/rss.xml" title="RSS" target="_blank">RSS</a>
+					</li>
+					<li><a class="text-muted" href="https://verk.cc/xml/baidu.xml" title="百度Sitemap" target="_blank">百度</a>
+					</li>
+					<li><a class="text-muted" href="https://verk.cc/xml/google.xml" title="谷歌Sitemap" target="_blank">谷歌</a>
+					</li>
+				</ul>
+			</div>
+			<div class="myul text-muted">
+				<ul>
+					{seacms:linklist type=font}
+					<li><a class="text-muted" href="[linklist:link]" title="[linklist:des]" target="_blank">[linklist:name]</a>
+					</li>
+					{/seacms:linklist}
+				</ul>
+			</div>
+			<div class="myul text-muted">
+				{seacms:copyright}
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<ul class="myui-extra clearfix">
+	<li>
+		<a class="backtop" href="javascript:scroll(0,0)" title="返回顶部" style="display: none;"><i class="fa fa-angle-up"></i></a>
+	</li>
+</ul>
+<script type="text/javascript">
+	MyTheme.Images.Qrcode.Init();
+	MyTheme.Link.Short();
+</script>
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?5eb49b5f6d518f6fb4837b824efd306d";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>
