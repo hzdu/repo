@@ -17,12 +17,12 @@ body.active{ padding-top: 110px;}
 .myui-header__search .search-hot a{ display: inline-block; margin-left: 20px; color: #666;}
 .myui-header__search .search-hot span{ color: #666;}
 .myui-header__search li{ float: left;}
-.myui-header__search li.search-box{ position: relative; width: 260px; height: 50px;}
+.myui-header__search li.search-box{ position: relative; width: 400px; height: 50px;}
 .myui-header__search li.search-box .form-control{ height: 50px; padding-left: 30px; border-radius: 0; background: none; border: 0;}
 .myui-header__search li.search-box .form-control:focus{ border-color: none; -webkit-box-shadow: none;}
 .myui-header__search li.search-box .submit{ display:block; position:absolute; top: 0; left: 10px; height: 50px; line-height: 50px; text-align:center; background: none; border: 0; color: #999;}
 .myui-header__search li.search-box .dropdown-box{ margin-left: -130px; padding-top: 0;}
-.myui-header__search li.search-box .dropdown-box .item{ width: 260px; padding: 20px;}
+.myui-header__search li.search-box .dropdown-box .item{ width: 400px; padding: 20px;}
 .myui-header__search li.search-box.search-box:hover .search-dropdown-hot{ display: block;}
 .myui-header__search li.search-select{ position: relative; margin-top: 15px; padding: 0 10px 0 15px; border-right: 1px solid #eee; cursor: pointer;}
 .myui-header__search li.search-select .dropdown-box{ margin-left: -40px; z-index: 101;}
@@ -42,7 +42,7 @@ body.active{ padding-top: 110px;}
 
 /* header-user */
 .myui-header__user{float:right;}
-.myui-header__user > li{ float:left; position: relative; padding: 18px 0 10px; margin-left: 20px;}
+.myui-header__user > li{ float:left; position: relative; padding: 0 0 10px; margin-left: 20px;}
 .myui-header__user > li > a,.myui-header__user > li > a .fa{ display: inline-block; font-size: 22px; line-height: 24px; color: #333;}
 .myui-header__user > li .dropdown-box{ right: 0; margin-left: 0; margin-right: -120px; padding-top: 10px;}
 .myui-header__user > li .dropdown-box .item{ width: 260px; padding: 20px;}
@@ -112,7 +112,7 @@ body.active{ padding-top: 110px;}
 	
     /* header */
     .myui-header__top{ padding: 0 20px;}
-	.myui-header__search li.search-box{ width: 180px;}
+	.myui-header__search li.search-box{ width: 400px;}
 	.myui-header__menu > li{ margin-left: 20px;}
 	.myui-header__user > li{ margin-left: 20px;}
 	.myui-header__menu > li:hover .head-dropdown,.myui-header__user > li:hover .head-dropdown{ display: none;} 
@@ -129,8 +129,8 @@ body.active{ padding-top: 110px;}
 	.myui-header__search{ width: 100%; margin: 0;}
 	.myui-header__search li.search-box{ position: absolute; width: 100%; left: 120px; top: 0;}
 	.myui-header__search li.search-box .dropdown-box{ margin-left: -180px; padding-top: 0;}
-	.myui-header__search li.search-box .dropdown-box .item{ width: 240px;}
-	.myui-header__search li.search-ul .dropdown-box .item{ width: 300px;}
+	.myui-header__search li.search-box .dropdown-box .item{ width: 400px;}
+	.myui-header__search li.search-ul .dropdown-box .item{ width: 400px;}
 	.myui-header__menu > li .dropdown-box{ margin-left: -150px; padding-top: 0;}
 	.myui-header__menu > li .dropdown-box .item{ width: 300px;}
 	.myui-header__user > li{ margin-left: 15px; padding: 15px 0 10px;}
