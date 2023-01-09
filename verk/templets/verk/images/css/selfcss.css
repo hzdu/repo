@@ -1,7 +1,8 @@
 body {
     font-family: "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
-}[class*=col-],.myui-content__list li,.myui-vodlist__media.col li {
-     padding: 10px
+}
+[class*=col-],.myui-content__list li,.myui-vodlist__media.col li {
+     padding: 10px;
  }
 
 .btn {
@@ -133,7 +134,7 @@ body {
     left: 0;
     right: 0;
     width: 100%;
-    background-image: linear-gradient( 135deg, #583230 10%, #360940 100%);
+    /*background-image: linear-gradient( 135deg, #583230 10%, #360940 100%);*/
 }
 
 .hy-page {
