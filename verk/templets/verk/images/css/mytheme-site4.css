@@ -42,7 +42,7 @@ body.active{ padding-top: 110px;}
 
 /* header-user */
 .myui-header__user{float:right;}
-.myui-header__user > li{ float:left; position: relative; padding: 5px 0 10px; margin-left: 20px;}
+.myui-header__user > li{ float:left; position: relative; padding: 10px 10px 10px; margin-left: 20px;}
 .myui-header__user > li > a,.myui-header__user > li > a .fa{ display: inline-block; font-size: 22px; line-height: 24px; color: #333;}
 .myui-header__user > li .dropdown-box{ right: 0; margin-left: 0; margin-right: -120px; padding-top: 10px;}
 .myui-header__user > li .dropdown-box .item{ width: 260px; padding: 20px;}
