@@ -1,6 +1,5 @@
 wp-content/cache/
 wp-content/upgrade/
-wp-content/uploads/
 _MACOSX/
 
 # ignore log files and databases
